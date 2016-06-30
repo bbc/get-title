@@ -1,0 +1,38 @@
+{
+  "name": "get-title",
+  "version": "1.0.0",
+  "description": "Extract the favicons URLs from a set of HTML head elements.",
+  "main": "from-input.js",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bbcrd/get-title.git"
+  },
+  "keywords": [
+    "title",
+    "og:title",
+    "cli",
+    "html",
+    "head",
+    "bbc"
+  ],
+  "author": "Thomas Parisot (https://oncletom.io)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bbcrd/get-title/issues"
+  },
+  "homepage": "https://github.com/bbcrd/get-title#readme",
+  "dependencies": {
+    "parse-head": "^1.2.0",
+    "yargs": "^4.1.0"
+  },
+  "devDependencies": {
+    "blue-tape": "^0.2.0"
+  }
+}
