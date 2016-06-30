@@ -1,7 +1,7 @@
 {
   "name": "get-title",
   "version": "1.0.0",
-  "description": "Extract the favicons URLs from a set of HTML head elements.",
+  "description": "Extract the best title value contained in some HTML content.",
   "main": "from-input.js",
   "bin": "./bin/cli.js",
   "scripts": {

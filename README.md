@@ -1,6 +1,6 @@
 # get-title [![Build Status](https://travis-ci.org/bbcrd/get-title.svg?branch=master)](https://travis-ci.org/bbcrd/get-title)
 
-> A promise to return a list of favicons contained in some HTML content.
+> A promise to extract the best title value contained in some HTML content.
 
 The streaming approach helps remaining efficient in spite of malformed or very large HTML documents.
 
