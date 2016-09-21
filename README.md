@@ -1,4 +1,4 @@
-# get-title [![Build Status](https://travis-ci.org/bbcrd/get-title.svg?branch=master)](https://travis-ci.org/bbcrd/get-title)
+# get-title [![Build Status](https://travis-ci.org/bbc/get-title.svg?branch=master)](https://travis-ci.org/bbc/get-title)
 
 > A promise to extract the best title value contained in some HTML content.
 

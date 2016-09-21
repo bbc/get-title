@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bbcrd/get-title.git"
+    "url": "git@github.com:bbc/get-title.git"
   },
   "keywords": [
     "title",
@@ -25,9 +25,9 @@
   "author": "Thomas Parisot (https://oncletom.io)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/bbcrd/get-title/issues"
+    "url": "https://github.com/bbc/get-title/issues"
   },
-  "homepage": "https://github.com/bbcrd/get-title#readme",
+  "homepage": "https://github.com/bbc/get-title#readme",
   "dependencies": {
     "parse-head": "^1.2.0",
     "yargs": "^4.1.0"
