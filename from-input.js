@@ -22,10 +22,8 @@ module.exports = function fromInput(stream, args) {
 	}).then((headers) => {
 		const charsetNode = headers.find(h => h.nodeName === 'META' && h.charset && h.charset.toLowerCase() !== 'utf-8');
 		if (charsetNode) {
-			return Promise.resolve(iconv.decode(buffer, charsetNode.charset));
+			return parseHead(iconv.decode(buffer, charsetNode.charset));
 		}
-		return Promise.resolve(buffer);
-	}).then((stream) => {
-		return parseHead(stream);
+		return Promise.resolve(headers);
 	}).then(headers => getTitle(headers, args));
 };
