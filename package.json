@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/bbc/get-title#readme",
   "dependencies": {
+    "iconv-lite": "^0.5.1",
     "parse-head": "^1.2.0",
     "yargs": "^4.1.0"
   },
