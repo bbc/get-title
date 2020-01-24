@@ -37,3 +37,19 @@ test('from an array', t => {
     t.equal(title, "Lickety Split ice cream parlour's van stolen");
   });
 });
+
+test('from a stream - japanese', t => {
+  const stream = fs.createReadStream(`${__dirname}/japanese.html`);
+
+  return fromInput(stream).then(title => {
+    t.equal(title, "これは日本のタイトルです");
+  });
+});
+
+test('from a stream - unknown-charset', t => {
+  const stream = fs.createReadStream(`${__dirname}/unknown-charset.html`);
+
+  return fromInput(stream).then(title => {
+    t.equal(title, "����͓��{�̃^�C�g���ł�");
+  });
+});
