@@ -20,7 +20,7 @@ $ npm install --save get-title
 const getTitle = require('get-title');
 const hyperquest = require('hyperquest');
 
-const stream = hyperquest('http://www.bbc.co.uk/news/uk-england-tyne-36570429');
+const stream = hyperquest('https://www.bbc.co.uk/news/uk-england-tyne-36570429');
 
 getTitle(stream).then(title => {
   // ...
@@ -50,14 +50,14 @@ Options:
 
 Examples:
   cat some/file.html | get-title
-  curl -Ss http://www.bbc.co.uk/news/uk-england-tyne-36570429 | get-title
+  curl -Ss https://www.bbc.co.uk/news/uk-england-tyne-36570429 | get-title
   > Lickety Split ice cream parlour's van stolen - BBC News
 ```
 
 
 # License
 
-> Copyright 2016, British Broadcasting Corporation
+> Copyright 2020, British Broadcasting Corporation
 >
 > Licensed under the Apache License, Version 2.0 (the "License");
 > you may not use this file except in compliance with the License.
