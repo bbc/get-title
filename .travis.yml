@@ -2,13 +2,13 @@ language: node_js
 node_js:
 - '8'
 - '10'
-- 'node'
+- node
 deploy:
   provider: npm
   email: irfs@bbc.co.uk
   skip_cleanup: true
   api_key:
-    secure: cSuf3iiNYM2jSjrk7xNxVLuZn+7S78jktze5MyFdK0rchgOessLY0yIDF9MZbhVbCXGgVbygp+dP5IMHPIDFCqC77WyaWCKdRfretb//RoiRAkEL9B6j8kJ//Sl7LPZ5yYpzotC2tF8zDrw0cucz1sXDTRN9x0C1do2O83hS/qk=
+    secure: fO1IN//wa/p2H9exNRMJ58Oj8NZ7ubojz6I0R4r35j8sZA3JJTWWpvDdEGL8dAssLphVKiVf2FXi6leNdc5AN4aobS+DcytNXb5n1qGqlEkSpWVyS1UXqUHnMqPma6wAla/1PJmG8oYLKKoglGr6dEHDQ7tn/E3wGazH0GJX72K+xIwxpYU14qk4MTLecazaWjxhATmPgIUhEIWMzXi/xk5MIQQUREyRZ3o9lE1ju8le2HpRbeaH4c6H1cZawzvqlsOYQQ+LTKGfH84qumTXQFmaZTAayOIFmxa4/w390hBbPxhF5FGjCIc+Xw5odkMYYdMqsPdFDC1OeD+pgY801/kz9pmrVxJhwltInyw4U4vui9FRvul8FR5HJdeyWv1DNeOg3TRoH82D5zqEFKj2OiDa5vQhyjjFDpP7h5elV8LFo0bOBO+9LN75ph64DMvpLHIi2Bw1hV1ucoVv1R0T/flTbPuwYFrTJuwRr8UnoZw2f7ZmsHOr5WBh0sp/aNyJxn4Zg8B68wnvscJA6Q+gJFe+sw4lsYI5VtC/jYzNv8/+b7wGPuVeL5o6yqkRUr9a1XeZB49167ZExz+is6mnsgK8AEhTEieEgMB568V3aq9hgFdhnDt6kz6wCAr5luRmQB+Xb7u+bixfxXfMEBoOYIc1koH5UFiW1mW5uaOD3DE=
   on:
     tags: true
     repo: bbc/get-title
